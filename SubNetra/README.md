@@ -6,7 +6,7 @@
 
 ## ✨ Features
 
-* **IPv4 calculations:** Network address, broadcast address, subnet mask, wildcard mask, binary subnet mask, IP class (A, B, C, D, E), prefix length, public/private type, CIDR notation, binary / integer / hex network ID, usable and total host counts, first/last host, and a host list for small subnets.
+* **IPv4 calculations:** Network address, broadcast address, subnet mask, wildcard mask, binary subnet mask, IP class (A, B, C, D, E), prefix length, private/public type, CIDR notation, binary / integer / hex network ID, usable and total host counts, first/last host, and a host list for small subnets.
 * **IPv6 analysis:** Network address, CIDR notation, prefix length, total IP capacity, private / loopback / link-local checks, and integer / hex network ID.
 * **Single IPs supported:** An address without a prefix is treated as `/32` (IPv4) or `/128` (IPv6).
 * **Lightweight:** Pure Python, no third-party dependencies.
@@ -29,7 +29,7 @@ Python 3.8 or newer is recommended. No extra packages are required, so there is 
    ```
 2. **Go to the project folder:**
    ```bash
-   cd SubNetra/subnetra
+   cd SubNetra
    ```
 3. **Run the program:**
    ```bash
@@ -39,3 +39,25 @@ Python 3.8 or newer is recommended. No extra packages are required, so there is 
 
 ---
 
+## 📋 Example
+
+Input: `192.168.1.0/30`
+
+```text
+IP version:          IPv4
+Network address:     192.168.1.0
+Broadcast address:   192.168.1.3
+Subnet mask:         255.255.255.252
+Wildcard mask:       0.0.0.3
+IP class:            C
+Prefix length:       30
+IP type:             Private
+CIDR notation:       192.168.1.0/30
+Usable hosts:        2
+Total host count:    4
+First host:          192.168.1.1
+Last host:           192.168.1.2
+All hosts: 192.168.1.1, 192.168.1.2
+```
+
+(Some output lines are omitted here for brevity.)
