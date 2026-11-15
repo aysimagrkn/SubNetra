@@ -39,25 +39,3 @@ Python 3.8 or newer is recommended. No extra packages are required, so there is 
 
 ---
 
-## 📋 Example
-
-Input: `192.168.1.0/30`
-
-```text
-IP versiyonu:        IPv4
-Ağ adresi:           192.168.1.0
-Yayın adresi:        192.168.1.3
-Alt ağ maskesi:      255.255.255.252
-Wildcard maske:      0.0.0.3
-IP sınıfı:           C
-Prefix uzunluğu:     30
-IP tipi:             Özel (Private)
-CIDR notasyonu:      192.168.1.0/30
-Kullanılabilir host: 2
-Toplam host sayısı:  4
-İlk host:            192.168.1.1
-Son host:            192.168.1.2
-Tüm hostlar:         192.168.1.1, 192.168.1.2
-```
-
-(Some output lines are omitted here for brevity. The program prints its output in Turkish.)
