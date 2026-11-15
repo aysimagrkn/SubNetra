@@ -1,0 +1,3 @@
+# SubNetra has no third-party dependencies.
+# It only uses Python's standard library (the built-in "ipaddress" module).
+# Python 3.8 or newer is recommended.
